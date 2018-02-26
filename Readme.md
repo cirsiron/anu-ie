@@ -1,4 +1,3 @@
-### 笔记
 
 - react中 class 里面设置 static defaultProps报错
  + 如果babel设置为es6的转码方式，会报错，因为定义静态属性不属于es6，而在es7的草案中。ES6的class中只有静态方法，没有静态属性。可以使用
